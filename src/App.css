@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+.nav{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  min-height: 10x;
+  background-color: #7FDBFF;
+  justify-content: space-around;
+  transition: top 0.3s;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.inner{
+  display: flex;
+  position: static;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  
+}
+body{
+  background-color:floralwhite;
+  
+}
+/* About */
+.p1 {
+            
+  position: relative;
+  top: 40px;
+  display: block;
+  background-color:rgb(157, 252, 255);
+  border-radius: 25px;
+  padding: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+} 
+.p2 {
+            
+  position: relative;
+  top: 70px;
+  display: block;
+  background-color:rgb(157, 252, 255);
+  border-radius: 25px;
+  padding: 50px;
+  margin-right: 60%;
+  margin-left: 100px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+} 
+
+
+/* Image */
+
+/* Fading body */
+.zoom{
+  padding: 40px;
+  justify-content: center;
+  height: 400px;
+  width: 250px;
+  
+}
+.zoom .image1 {
+  transition: transform 1s ease;
+}
+.zoom:hover .image1{
+  transform: scale(1.2);
+
+}
+.image1{
+  max-height: 120%;
+  max-width: 120%;
+  cursor: zoom-in;
+  transition: 0.45s;
+  position: relative ;
+  top: 13%;
+  border-radius: 5%;
+}
+/* Welcome */
+.Welcome{
+  text-align: justify;
+}
+
+/* Home */
+.intro{
+  position: absolute;
+  left: 400px;
+  top: 120px;
+  opacity: 5px;
+  padding: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+#body1{
+  background-image: linear-gradient(180deg, #7FDBFF,  floralwhite 100%);
+
+}
+
+/* Table Projects */
+table, tr {
+  position: relative;
+  padding: 2rem;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.p3{
+  position: relative;
+  top: 70px;
+  display: block;
+  background-color:rgb(157, 252, 255);
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 50%;
+  margin-left: 80px;
+}
+/* Inner Page in Projects */
+.p4{
+  position: relative;
+  top: -240px;
+  display: block;
+  background-color:rgb(157, 252, 255);
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 55%;
+  font-size: 20px;
+}
+.p5{
+  position: relative;
+  top: 80px;
+  display: block;
+  background-color:rgb(98, 194, 238);
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 80px;
+  font-size: 28px;
+}
+
+/* image */
+.background1{
+  background-image: url("./components/sky.jpg"); 
+  width: auto;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Form */
+.myForm{
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 4rem;
+}
+label{
+  display: block;
+  margin: 8px;
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  margin: 8px;
+  height: 40px;
+}
+.myButton{
+  border: 0px;
+  border-radius: 50px;
+  background-color: rgb(179, 243, 243);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 8px;
+
+}
+.myButton:hover{
+  background-color: violet;
+}
+
+.inner-p{
+  line-height: 1.5 ;
+}
+
